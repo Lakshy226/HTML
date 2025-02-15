@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2x2 Grid</title>
+   <style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: aqua
+    }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+            width: 80%;
+            height: 80%;
+            background-color: cornsilk;
+        }
+    .grid-item{
+        display: flex;
+        justify-content: center;
+        border: 1px solid #ccc;
+        background-color: azure;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .grid-item video {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+   </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <!-- Image -->
+        <div class="grid-item">
+            <img src="image1234.jpg">
+
+        </div>
+
+        <!-- Text -->
+        <div class="grid-item">
+            <p>Sample text description in grid</p>
+        </div>
+
+        <!-- Video -->
+        <div class="grid-item"> <video controls>
+            <source src="video.mp4" type="video/mp4"> </video>
+        </div>
+
+        <!-- Map -->
+        <div class="grid-item">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1552.177440442382!2d73.36180760196493!3d22.288559439968562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1739598600627!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>
