@@ -60,3 +60,132 @@ header{
   padding: 50px 20px;
   background: #fff8dc;
 }
+h2 {
+    font-size: 28px;
+    color: #8b0000; /* Deep Maroon - Traditional & Rich */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item h3 {
+    font-size: 22px;
+    color: #b22222;
+}
+
+.item p {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+.item span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fdf1dc; /* A warm, inviting shade */
+}
+
+#about p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+#reviews {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+.review {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    transition: transform 0.3s;
+}
+
+.review:hover {
+    transform: scale(1.02);
+}
+
+
+#contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 8px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 12px;
+    background: #b22222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #8b1e1e;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    font-size: 15px;
+}
